@@ -18,6 +18,7 @@ int main()
             }
         }
         if(!word){
+            words.push_back(temp);
             cout<<temp<<endl;
         }
     }
